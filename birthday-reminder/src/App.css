@@ -1,0 +1,81 @@
+/* Roboto  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(255, 100, 162);
+}
+
+h3 {
+  font-size: 1rem;
+  text-align: left;
+  font-weight: lighter;
+  margin-left: 1rem;
+}
+.list{
+  font-weight: 800;
+  font-size: 1rem;
+  text-align: left;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+article {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+article div {
+  margin-left: 1rem;
+}
+
+.container{
+  background-color: white;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  width: 40vw;
+  height: max-content;
+  box-shadow: 0.5rem 0.5rem 1.2rem;
+}
+
+.clear {
+  padding: 0.2rem 1rem;
+  margin-top: 1rem;
+  width: 60%;
+  border: 1px solid rgb(255, 100, 162);
+  background-color: rgb(255, 100, 162);
+  color: white;
+  font-size: 1.1rem;
+}
+
+.clear:hover{
+  cursor: pointer;
+  background-color: rgb(196, 63, 116);
+}
+
+img {
+  width: 40px;
+}
+
+.name {
+  font-size: 1.2rem;
+}
+
+.age {
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
+  font-weight: 100;
+}
